@@ -575,6 +575,10 @@ body {
 	.first-content p {
 	font-size: 10px;
 }
+ .second-content  {
+	font-size: 25px;
+}
+
 }
 .first-content em {
 	font-style: normal;
