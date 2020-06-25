@@ -318,13 +318,12 @@ body {
 }
 
 #menu-toggle {
-    z-index: 999;
+    z-index: 9;
     cursor: pointer;
     position: fixed;
     top: 0%;
     left: 0;
     color: #d06e78;
-    background: rgba(0, 0, 0, 0.5);
     padding: 0px 20px;
     height: 40px;
     text-align: center;
@@ -401,6 +400,7 @@ body {
 	.slides .slide .content{
 		left: 0px !important;
 		width: 100% !important;
+		height: 100% !important;
 	}
 	.menu{
 		top: 0px !important;
@@ -431,6 +431,7 @@ body {
 }
 .resume .resume-item i {
 	color: #ffffff;
+	padding: 0px;
 }
 .progress-bar{
 	text-align: left;
@@ -570,7 +571,11 @@ body {
 	line-height: 26px;
 	margin-bottom: 20px;
 }
-
+@media screen and (max-width: 425px) {
+	.first-content p {
+	font-size: 10px;
+}
+}
 .first-content em {
 	font-style: normal;
 	font-weight: 600;
